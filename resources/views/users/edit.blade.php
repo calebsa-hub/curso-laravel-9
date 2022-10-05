@@ -3,7 +3,7 @@
 @section('title', "Editar o usuário {{ $user->name }}")
 
 @section('content')
-<h1>Editar o usuário {{ $user->name }}</h1>
+<h1 class="pb-2">Editar o usuário {{ $user->name }}</h1>
 
 @include('includes.validations-form')
 

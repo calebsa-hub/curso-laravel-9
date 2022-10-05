@@ -3,7 +3,7 @@
 @section('title', 'Novo usuário')
 
 @section('content')
-<h1>Novo usuário</h1>
+<h1 class="font-bold">Novo usuário</h1>
 
 @include('includes.validations-form')
 
